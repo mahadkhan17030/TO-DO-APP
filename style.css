@@ -1,0 +1,41 @@
+body {
+	font-family: Arial, sans-serif;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#add-form {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+#new-item {
+	flex-grow: 1;
+	margin-right: 10px;
+}
+
+#todo-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#todo-list li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #f9f9f9;
+	padding: 10px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+#todo-list li span {
+	flex-grow: 1;
+	margin-right: 10px;
+}
+
+#delete-all {
+	display: block;
+	margin-top: 20px;
+}
